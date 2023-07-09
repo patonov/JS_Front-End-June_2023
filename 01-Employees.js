@@ -20,4 +20,13 @@ function solve(emps){
     
 }
 
+function solve2(emps){
+    emps.forEach((employee) => {
+        console.log(`Name: ${employee} -- Personal Number: ${employee.length}`);  
+    });
+
+}
+
 solve(['Silas Butler', 'Adnaan Buckley', 'Juan Peterson', 'Brendan Villarreal']);
+
+solve2(['Silas Butler', 'Adnaan Buckley', 'Juan Peterson', 'Brendan Villarreal']);
